@@ -1,0 +1,5 @@
+weight = float(input('请输入体重（单位斤）：'))
+print('转化为公斤是：',weight/2,'公斤',sep='')
+print(f'转化为公斤是：{weight/2}公斤')
+print('转化为公斤是：%.1f公斤'%(weight/2))
+print('转化为公斤是：{:2f}公斤'.format(weight/2))

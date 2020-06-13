@@ -1,0 +1,5 @@
+word = input('请输入逗号分格的字符：')
+list = word.split(',')
+tuple_value = tuple(list)
+print(f'转化为列表{list}')
+print(f'转化为元组{tuple_value}')

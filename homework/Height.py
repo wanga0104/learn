@@ -1,0 +1,7 @@
+father_height = float(input('请输入父亲的身高（单位是厘米）：'))
+mother_height = float(input('请输入母亲的身高（单位是厘米）：'))
+son_height = float((father_height+mother_height)*0.54)
+#print('预测您儿子的身高：',(father_height+mother_height)*0.54,'厘米')
+print('预测您儿子的身高：','%.1f' % son_height,'厘米',sep='')
+print(f'预测您儿子的身高：{son_height:.1f}厘米')
+print('预测您儿子的身高{:.1f}厘米'.format(son_height))
